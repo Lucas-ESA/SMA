@@ -70,18 +70,23 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Enum\StatuUsuarioOptions.cs" />
-    <Compile Include="Interface\IUsuario.cs" />
+    <Compile Include="Enum\StatusUsuarioOptions.cs" />
+    <Compile Include="Interface\IServiceCargo.cs" />
+    <Compile Include="Interface\IServiceUsuario.cs" />
     <Compile Include="Interface\Repository\IRepositoryCargo.cs" />
+    <Compile Include="Interface\Resources\Cargo\AtualizarCargoRequest.cs" />
+    <Compile Include="Interface\Resources\Cargo\BaseRequest.cs" />
     <Compile Include="Interface\Resources\Usuario\AtualizarUsuarioRequest.cs" />
     <Compile Include="Interface\Resources\Usuario\CadastrarUsuarioRequest.cs" />
-    <Compile Include="Interface\Services\UsuarioService.cs" />
+    <Compile Include="Interface\Services\ServiceCargo.cs" />
+    <Compile Include="Interface\Services\ServiceUsuario.cs" />
     <Compile Include="Model\Base\EntityBase.cs" />
     <Compile Include="Model\Cargo.cs" />
     <Compile Include="Model\Usuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Interface\Repository\IRepositoryUsuario.cs" />
-    <Compile Include="Value Objects\Nome.cs" />
+    <Compile Include="Utility\Crypto.cs" />
+    <Compile Include="Utility\Mail.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

@@ -14,5 +14,6 @@ namespace SMA.Repository
         Usuario Adicionar(Usuario Usuario);
         Usuario Alterar(Usuario Usuario);
         void Excluir(Guid ID);
+        bool Autenticar(string usuario, string senha);
     }
 }

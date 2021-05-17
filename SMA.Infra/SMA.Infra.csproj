@@ -82,8 +82,14 @@
     <Compile Include="Migrations\202105141406281_test.designer.cs">
       <DependentUpon>202105141406281_test.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202105171647258_dropTable_Nome.cs" />
+    <Compile Include="Migrations\202105171647258_dropTable_Nome.designer.cs">
+      <DependentUpon>202105171647258_dropTable_Nome.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\RepositoryCargo.cs" />
+    <Compile Include="Repository\RepositoryUsuario.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -103,6 +109,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202105141406281_test.resx">
       <DependentUpon>202105141406281_test.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202105171647258_dropTable_Nome.resx">
+      <DependentUpon>202105171647258_dropTable_Nome.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

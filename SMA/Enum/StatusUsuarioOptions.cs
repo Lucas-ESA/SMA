@@ -1,6 +1,6 @@
 ﻿namespace SMA.Enum
 {
-    public enum StatuUsuarioOptions
+    public enum StatusUsuarioOptions
     {
         Pendente = 0,
         Inativo = 1,

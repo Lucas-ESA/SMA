@@ -7,11 +7,11 @@ using System.Web;
 
 namespace SMA.Interface
 {
-    public interface IUsuario
+    public interface IServiceUsuario
     {
-        Usuario Cadastrar(CadastrarUsuarioRequest request);
+        Usuario Cadastrar(BaseRequest request);
         Usuario Atualizar(AtualizarUsuarioRequest request);
         string Excluir(Guid ID);
-        string Autenticar(string username, string senha);
+        bool Autenticar(string username, string senha);
     }
 }
